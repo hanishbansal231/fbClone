@@ -1,0 +1,85 @@
+@media (max-width: 900px){
+    .RightSidebar{
+        display: none;
+    }
+    .leftSidebar{
+        display: none;
+    }
+    nav{
+        flex-wrap: wrap;
+    }
+    .rightSearchBox{
+        display: none;
+    }
+    .navLeft .logo{
+        width: 110px;
+        margin-right: 20px;
+    }
+    .navLeft .navLinks .navLink img{
+        width: 20px;
+        margin: 0 8px;
+    }
+    .userProfile img{
+        width: 30px;
+    }
+    .userProfile{
+        margin-left: 0;
+    }
+    .addPostLink{
+        flex-wrap: wrap;
+    }
+    .mainContainer{
+        flex-basis: 100%;
+    }
+    .story img{
+        width: 30px;
+        border-width: 3px;
+    }
+    .story p{
+        font-size: 10px;
+    }
+    .story.story1 img{
+        width: 25px;
+        bottom: 30px;
+    }
+    .addPostLink a{
+        margin-right: 12px;
+        font-size: 9px;
+    }
+    .addPostLink a img{
+        width: 16px;
+        margin-right: 5px;
+    }
+    .postInputContainer{
+        padding-left: 0;
+    }
+    .navLeft,.navLeft .navLinks {
+        gap: 0;
+    }
+}
+/* Profile Page */
+@media (max-width: 900px){
+    .profileContainer{
+        padding: 20px 5%;
+    }
+    .profileDetails{
+        flex-wrap: wrap;
+    }
+    .pdRight{
+        text-align: left;
+        margin-top: 15px;
+    }
+    .pdRight button{
+        margin-left: 0;
+        margin-right: 10px;
+    }
+    .pdRow div h3{
+        font-size: 16px;
+    }
+    .profileInfo{
+        flex-wrap: wrap;
+    }
+    .infoCol,.postCol{
+        flex-basis: 100%;
+    }
+}
